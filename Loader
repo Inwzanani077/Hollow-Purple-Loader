@@ -1,0 +1,8 @@
+local placeID = game.PlaceId
+
+if placeID == 13199448223 then
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/Inwzanani077/Hollow-Hub/main/CambodiaAngkor'))()
+else
+	game.Players.LocalPlayer:Kick("This game is not available (Error Code = 1)")
+end
+
